@@ -16,5 +16,14 @@ namespace PokusGIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+
+            int soucet = a + b;
+            label1.Text = "Součet obou čísel je: " + soucet;
+        }
     }
 }
