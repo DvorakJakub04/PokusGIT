@@ -23,7 +23,9 @@ namespace PokusGIT
             int b = int.Parse(textBox2.Text);
 
             int soucet = a + b;
+            int rozdil = a - b;
             label1.Text = "Součet obou čísel je: " + soucet;
+            label2.Text = "Rozdíl obou čísel je: " + rozdil;
         }
     }
 }
