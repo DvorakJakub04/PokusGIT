@@ -31,5 +31,10 @@ namespace PokusGIT
             label3.Text = "Součin obou čísel je: " + soucin;
             label4.Text = "Podíl obou čísel je: " + podil;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ITA2\n" + "Dvořák Jakub");
+        }
     }
 }
