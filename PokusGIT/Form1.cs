@@ -36,5 +36,14 @@ namespace PokusGIT
         {
             MessageBox.Show("ITA2\n" + "Dvořák Jakub");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int z = int.Parse(textBox3.Text);
+            int faktorial = 1;
+
+            for (int i = 1; i <= z; ++i) faktorial *= i;
+            label5.Text = "Faktoriál tohoto čísla je: " + faktorial;
+        }
     }
 }
