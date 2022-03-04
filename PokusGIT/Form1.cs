@@ -24,8 +24,10 @@ namespace PokusGIT
 
             int soucet = a + b;
             int rozdil = a - b;
+            int soucin = a * b;
             label1.Text = "Součet obou čísel je: " + soucet;
             label2.Text = "Rozdíl obou čísel je: " + rozdil;
+            label3.Text = "Součin obou čísel je: " + soucin;
         }
     }
 }
