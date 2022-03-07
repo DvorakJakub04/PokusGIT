@@ -45,5 +45,20 @@ namespace PokusGIT
             for (int i = 1; i <= z; ++i) faktorial *= i;
             label5.Text = "Faktoriál tohoto čísla je: " + faktorial;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);           //Tento button umocní A z textbox1 na číslo v textbox4
+            int mocnitel = int.Parse(textBox4.Text);
+            int mocnina = 1;
+
+            for (int i = 0; i < mocnitel; ++i) mocnina *= a;
+            label7.Text = "Umocněné A je: " + mocnina;
+        }
     }
 }
